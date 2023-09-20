@@ -4,15 +4,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Main from "./main";
 
 function App() {
-  return (
-    <AuthProvider>
-      <GlobalProvider>
-        <Router>
-          <Main />
-        </Router>
-      </GlobalProvider>
-    </AuthProvider>
-  );
+     return (
+          <AuthProvider>
+               <GlobalProvider>
+                    <Router>
+                         <Main />
+                    </Router>
+               </GlobalProvider>
+          </AuthProvider>
+     );
 }
 
 export default App;
